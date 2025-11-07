@@ -1,0 +1,1 @@
+D:\android\android-ndk\toolchains\llvm\prebuilt\windows-x86_64\bin\aarch64-linux-android29-clang virb.c -o virb -lm
