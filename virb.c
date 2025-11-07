@@ -360,7 +360,7 @@ int main(int argc, char *argv[])
         printf("  effect_id: 预定义效果ID\n");
         return -1;
     }
-    
+
     // 第一个参数作为设备路径
     device_path = argv[1];
 
@@ -388,11 +388,7 @@ int main(int argc, char *argv[])
     check_device_capabilities(fd);
 
     // 如果没有额外命令参数，则运行测试
-    if (argc == 2)
-    {
-        test_vibration(fd);
-    }
-    else if (argc >= 3)
+    if (argc >= 3)
     {
         // 剩余参数作为命令处理
         if (strcmp(argv[2], "simple") == 0 && argc >= 4)
