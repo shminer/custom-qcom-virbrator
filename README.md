@@ -2,7 +2,6 @@
 
 #### 用法
 ```
-  ./virb <device>                        # 运行测试序列
   ./virb <device> simple <duration_ms>          # 简单震动
   ./virb <device> constant <duration_ms> <strength> # 常量震动
   ./virb <device> predefined <effect_id> [strength] # 预定义效果
