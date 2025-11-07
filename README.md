@@ -13,3 +13,11 @@
   strength: 强度值 (0-32767)
   effect_id: 预定义效果ID
 ```
+* 短暂震动
+  ```
+  ./virb /dev/input/event4 simple 1
+  ```
+* 长震动（9秒）
+  ```
+  ./virb /dev/input/event4 simple 9000
+  ```
